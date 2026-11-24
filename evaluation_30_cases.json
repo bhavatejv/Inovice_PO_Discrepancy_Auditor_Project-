@@ -1,0 +1,422 @@
+[
+  {
+    "case_id": "TC-01",
+    "category": "Exact Match",
+    "purchase_order": "PO Number: PO-1001\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 6\nUnit Price: ₹32,500\n",
+    "invoice": "PO Number: PO-1001\nInvoice Number: INV-501\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 6\nUnit Price: ₹32,500\n",
+    "expected": [
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH"
+    ]
+  },
+  {
+    "case_id": "TC-02",
+    "category": "Exact Match",
+    "purchase_order": "PO Number: PO-1002\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 7\nUnit Price: ₹35,000\n",
+    "invoice": "PO Number: PO-1002\nInvoice Number: INV-502\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 7\nUnit Price: ₹35,000\n",
+    "expected": [
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH"
+    ]
+  },
+  {
+    "case_id": "TC-03",
+    "category": "Exact Match",
+    "purchase_order": "PO Number: PO-1003\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 8\nUnit Price: ₹37,500\n",
+    "invoice": "PO Number: PO-1003\nInvoice Number: INV-503\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 8\nUnit Price: ₹37,500\n",
+    "expected": [
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH"
+    ]
+  },
+  {
+    "case_id": "TC-04",
+    "category": "Exact Match",
+    "purchase_order": "PO Number: PO-1004\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 9\nUnit Price: ₹40,000\n",
+    "invoice": "PO Number: PO-1004\nInvoice Number: INV-504\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 9\nUnit Price: ₹40,000\n",
+    "expected": [
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH"
+    ]
+  },
+  {
+    "case_id": "TC-05",
+    "category": "Exact Match",
+    "purchase_order": "PO Number: PO-1005\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 10\nUnit Price: ₹42,500\n",
+    "invoice": "PO Number: PO-1005\nInvoice Number: INV-505\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 10\nUnit Price: ₹42,500\n",
+    "expected": [
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH"
+    ]
+  },
+  {
+    "case_id": "TC-06",
+    "category": "Exact Match",
+    "purchase_order": "PO Number: PO-1006\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 11\nUnit Price: ₹45,000\n",
+    "invoice": "PO Number: PO-1006\nInvoice Number: INV-506\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 11\nUnit Price: ₹45,000\n",
+    "expected": [
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH"
+    ]
+  },
+  {
+    "case_id": "TC-07",
+    "category": "Exact Match",
+    "purchase_order": "PO Number: PO-1007\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 12\nUnit Price: ₹47,500\n",
+    "invoice": "PO Number: PO-1007\nInvoice Number: INV-507\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 12\nUnit Price: ₹47,500\n",
+    "expected": [
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH"
+    ]
+  },
+  {
+    "case_id": "TC-08",
+    "category": "Exact Match",
+    "purchase_order": "PO Number: PO-1008\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 13\nUnit Price: ₹50,000\n",
+    "invoice": "PO Number: PO-1008\nInvoice Number: INV-508\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 13\nUnit Price: ₹50,000\n",
+    "expected": [
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH"
+    ]
+  },
+  {
+    "case_id": "TC-09",
+    "category": "Exact Match",
+    "purchase_order": "PO Number: PO-1009\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 14\nUnit Price: ₹52,500\n",
+    "invoice": "PO Number: PO-1009\nInvoice Number: INV-509\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 14\nUnit Price: ₹52,500\n",
+    "expected": [
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH"
+    ]
+  },
+  {
+    "case_id": "TC-10",
+    "category": "Exact Match",
+    "purchase_order": "PO Number: PO-1010\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 15\nUnit Price: ₹55,000\n",
+    "invoice": "PO Number: PO-1010\nInvoice Number: INV-510\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 15\nUnit Price: ₹55,000\n",
+    "expected": [
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH"
+    ]
+  },
+  {
+    "case_id": "TC-11",
+    "category": "Quantity Mismatch",
+    "purchase_order": "PO Number: PO-1011\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 10\nUnit Price: ₹40,000\n",
+    "invoice": "PO Number: PO-1011\nInvoice Number: INV-511\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 8\nUnit Price: ₹40,000\n",
+    "expected": [
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MISMATCH",
+      "MATCH"
+    ]
+  },
+  {
+    "case_id": "TC-12",
+    "category": "Quantity Mismatch",
+    "purchase_order": "PO Number: PO-1012\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 20\nUnit Price: ₹40,000\n",
+    "invoice": "PO Number: PO-1012\nInvoice Number: INV-512\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 18\nUnit Price: ₹40,000\n",
+    "expected": [
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MISMATCH",
+      "MATCH"
+    ]
+  },
+  {
+    "case_id": "TC-13",
+    "category": "Quantity Mismatch",
+    "purchase_order": "PO Number: PO-1013\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 5\nUnit Price: ₹40,000\n",
+    "invoice": "PO Number: PO-1013\nInvoice Number: INV-513\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 7\nUnit Price: ₹40,000\n",
+    "expected": [
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MISMATCH",
+      "MATCH"
+    ]
+  },
+  {
+    "case_id": "TC-14",
+    "category": "Quantity Mismatch",
+    "purchase_order": "PO Number: PO-1014\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 12\nUnit Price: ₹40,000\n",
+    "invoice": "PO Number: PO-1014\nInvoice Number: INV-514\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 10\nUnit Price: ₹40,000\n",
+    "expected": [
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MISMATCH",
+      "MATCH"
+    ]
+  },
+  {
+    "case_id": "TC-15",
+    "category": "Quantity Mismatch",
+    "purchase_order": "PO Number: PO-1015\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 30\nUnit Price: ₹40,000\n",
+    "invoice": "PO Number: PO-1015\nInvoice Number: INV-515\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 25\nUnit Price: ₹40,000\n",
+    "expected": [
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MISMATCH",
+      "MATCH"
+    ]
+  },
+  {
+    "case_id": "TC-16",
+    "category": "Unit Price Mismatch",
+    "purchase_order": "PO Number: PO-1016\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 10\nUnit Price: ₹50,000\n",
+    "invoice": "PO Number: PO-1016\nInvoice Number: INV-516\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 10\nUnit Price: ₹52,000\n",
+    "expected": [
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MISMATCH"
+    ]
+  },
+  {
+    "case_id": "TC-17",
+    "category": "Unit Price Mismatch",
+    "purchase_order": "PO Number: PO-1017\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 10\nUnit Price: ₹30,000\n",
+    "invoice": "PO Number: PO-1017\nInvoice Number: INV-517\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 10\nUnit Price: ₹28,000\n",
+    "expected": [
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MISMATCH"
+    ]
+  },
+  {
+    "case_id": "TC-18",
+    "category": "Unit Price Mismatch",
+    "purchase_order": "PO Number: PO-1018\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 10\nUnit Price: ₹45,000\n",
+    "invoice": "PO Number: PO-1018\nInvoice Number: INV-518\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 10\nUnit Price: ₹47,000\n",
+    "expected": [
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MISMATCH"
+    ]
+  },
+  {
+    "case_id": "TC-19",
+    "category": "Unit Price Mismatch",
+    "purchase_order": "PO Number: PO-1019\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 10\nUnit Price: ₹60,000\n",
+    "invoice": "PO Number: PO-1019\nInvoice Number: INV-519\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 10\nUnit Price: ₹65,000\n",
+    "expected": [
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MISMATCH"
+    ]
+  },
+  {
+    "case_id": "TC-20",
+    "category": "Unit Price Mismatch",
+    "purchase_order": "PO Number: PO-1020\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 10\nUnit Price: ₹25,000\n",
+    "invoice": "PO Number: PO-1020\nInvoice Number: INV-520\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 10\nUnit Price: ₹27,000\n",
+    "expected": [
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MISMATCH"
+    ]
+  },
+  {
+    "case_id": "TC-21",
+    "category": "Vendor Mismatch",
+    "purchase_order": "PO Number: PO-1021\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 10\nUnit Price: ₹50,000\n",
+    "invoice": "PO Number: PO-1021\nInvoice Number: INV-521\nVendor: XYZ Traders\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 10\nUnit Price: ₹50,000\n",
+    "expected": [
+      "MATCH",
+      "MISMATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH"
+    ]
+  },
+  {
+    "case_id": "TC-22",
+    "category": "Vendor Mismatch",
+    "purchase_order": "PO Number: PO-1022\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 10\nUnit Price: ₹50,000\n",
+    "invoice": "PO Number: PO-1022\nInvoice Number: INV-522\nVendor: Global Tech\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 10\nUnit Price: ₹50,000\n",
+    "expected": [
+      "MATCH",
+      "MISMATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH"
+    ]
+  },
+  {
+    "case_id": "TC-23",
+    "category": "Vendor Mismatch",
+    "purchase_order": "PO Number: PO-1023\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 10\nUnit Price: ₹50,000\n",
+    "invoice": "PO Number: PO-1023\nInvoice Number: INV-523\nVendor: MNO Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 10\nUnit Price: ₹50,000\n",
+    "expected": [
+      "MATCH",
+      "MISMATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH"
+    ]
+  },
+  {
+    "case_id": "TC-24",
+    "category": "Currency Mismatch",
+    "purchase_order": "PO Number: PO-1024\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 10\nUnit Price: ₹50,000\n",
+    "invoice": "PO Number: PO-1024\nInvoice Number: INV-524\nVendor: ABC Supplies\nCurrency: USD\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 10\nUnit Price: ₹50,000\n",
+    "expected": [
+      "MATCH",
+      "MATCH",
+      "MISMATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH"
+    ]
+  },
+  {
+    "case_id": "TC-25",
+    "category": "Currency Mismatch",
+    "purchase_order": "PO Number: PO-1025\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 10\nUnit Price: ₹50,000\n",
+    "invoice": "PO Number: PO-1025\nInvoice Number: INV-525\nVendor: ABC Supplies\nCurrency: EUR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 10\nUnit Price: ₹50,000\n",
+    "expected": [
+      "MATCH",
+      "MATCH",
+      "MISMATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH"
+    ]
+  },
+  {
+    "case_id": "TC-26",
+    "category": "Payment Terms Mismatch",
+    "purchase_order": "PO Number: PO-1026\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 10\nUnit Price: ₹50,000\n",
+    "invoice": "PO Number: PO-1026\nInvoice Number: INV-526\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 15\nItem: Laptop\nQuantity: 10\nUnit Price: ₹50,000\n",
+    "expected": [
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MISMATCH",
+      "MATCH",
+      "MATCH"
+    ]
+  },
+  {
+    "case_id": "TC-27",
+    "category": "Payment Terms Mismatch",
+    "purchase_order": "PO Number: PO-1027\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 10\nUnit Price: ₹50,000\n",
+    "invoice": "PO Number: PO-1027\nInvoice Number: INV-527\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 45\nItem: Laptop\nQuantity: 10\nUnit Price: ₹50,000\n",
+    "expected": [
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MISMATCH",
+      "MATCH",
+      "MATCH"
+    ]
+  },
+  {
+    "case_id": "TC-28",
+    "category": "Missing Quantity",
+    "purchase_order": "PO Number: PO-1028\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 10\nUnit Price: ₹50,000\n",
+    "invoice": "PO Number: PO-1028\nInvoice Number: INV-528\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nUnit Price: ₹50,000\n",
+    "expected": [
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MISSING",
+      "MATCH"
+    ]
+  },
+  {
+    "case_id": "TC-29",
+    "category": "Missing Unit Price",
+    "purchase_order": "PO Number: PO-1029\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 10\nUnit Price: ₹50,000\n",
+    "invoice": "PO Number: PO-1029\nInvoice Number: INV-529\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 10\n",
+    "expected": [
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MATCH",
+      "MISSING"
+    ]
+  },
+  {
+    "case_id": "TC-30",
+    "category": "Multiple Discrepancies",
+    "purchase_order": "PO Number: PO-1030\nVendor: ABC Supplies\nCurrency: INR\nPayment Terms: Net 30\nItem: Laptop\nQuantity: 10\nUnit Price: ₹50,000\n",
+    "invoice": "PO Number: PO-1030\nInvoice Number: INV-530\nVendor: XYZ Traders\nCurrency: USD\nPayment Terms: Net 45\nItem: Laptop\nQuantity: 8\nUnit Price: ₹52,000\n",
+    "expected": [
+      "MATCH",
+      "MISMATCH",
+      "MISMATCH",
+      "MISMATCH",
+      "MISMATCH",
+      "MISMATCH"
+    ]
+  }
+]

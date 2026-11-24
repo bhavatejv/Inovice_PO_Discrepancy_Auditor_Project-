@@ -1,0 +1,8 @@
+PO Number: PO-1001
+Vendor: ABC Supplies
+Currency: INR
+Payment Terms: Net 30
+
+ITEM | QTY | UNIT PRICE | CURRENCY
+Laptop Stand | 10 | 1200 | INR
+Keyboard | 20 | 850 | INR

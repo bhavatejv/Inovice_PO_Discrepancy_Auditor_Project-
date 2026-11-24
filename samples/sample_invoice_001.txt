@@ -1,0 +1,9 @@
+Invoice Number: INV-7788
+PO Number: PO-1001
+Vendor: ABC Supplies
+Currency: INR
+Payment Terms: Net 15
+
+ITEM | QTY | UNIT PRICE | CURRENCY
+Laptop Stand | 12 | 1200 | INR
+Keyboard | 20 | 900 | INR

@@ -1,0 +1,10 @@
+category,test_cases
+Exact Match,10
+Quantity Mismatch,5
+Unit Price Mismatch,5
+Vendor Mismatch,3
+Currency Mismatch,2
+Payment Terms Mismatch,2
+Missing Quantity,1
+Missing Unit Price,1
+Multiple Discrepancies,1

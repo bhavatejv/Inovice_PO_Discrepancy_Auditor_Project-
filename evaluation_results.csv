@@ -1,0 +1,31 @@
+case_id,category,correct_fields,total_fields,field_accuracy,expected_mismatches,detected_mismatches
+TC-01,Exact Match,6,6,100.0,0,0
+TC-02,Exact Match,6,6,100.0,0,0
+TC-03,Exact Match,6,6,100.0,0,0
+TC-04,Exact Match,6,6,100.0,0,0
+TC-05,Exact Match,6,6,100.0,0,0
+TC-06,Exact Match,6,6,100.0,0,0
+TC-07,Exact Match,6,6,100.0,0,0
+TC-08,Exact Match,6,6,100.0,0,0
+TC-09,Exact Match,6,6,100.0,0,0
+TC-10,Exact Match,6,6,100.0,0,0
+TC-11,Quantity Mismatch,6,6,100.0,1,1
+TC-12,Quantity Mismatch,6,6,100.0,1,1
+TC-13,Quantity Mismatch,6,6,100.0,1,1
+TC-14,Quantity Mismatch,6,6,100.0,1,1
+TC-15,Quantity Mismatch,6,6,100.0,1,1
+TC-16,Unit Price Mismatch,6,6,100.0,1,1
+TC-17,Unit Price Mismatch,6,6,100.0,1,1
+TC-18,Unit Price Mismatch,6,6,100.0,1,1
+TC-19,Unit Price Mismatch,6,6,100.0,1,1
+TC-20,Unit Price Mismatch,6,6,100.0,1,1
+TC-21,Vendor Mismatch,6,6,100.0,1,1
+TC-22,Vendor Mismatch,6,6,100.0,1,1
+TC-23,Vendor Mismatch,6,6,100.0,1,1
+TC-24,Currency Mismatch,6,6,100.0,1,1
+TC-25,Currency Mismatch,6,6,100.0,1,1
+TC-26,Payment Terms Mismatch,6,6,100.0,1,1
+TC-27,Payment Terms Mismatch,6,6,100.0,1,1
+TC-28,Missing Quantity,6,6,100.0,0,0
+TC-29,Missing Unit Price,6,6,100.0,0,0
+TC-30,Multiple Discrepancies,6,6,100.0,5,5
